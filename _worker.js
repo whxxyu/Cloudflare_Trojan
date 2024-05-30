@@ -2,7 +2,7 @@
 import { connect } from "cloudflare:sockets";
 
 let Pswd = 'trojan';
-const proxyIPs = ["workers.cloudflare.cyou"]; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
+const proxyIPs = ["workers.cloudflare.cyou"]; // https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/blob/main/proxyip.txt 中的地址也可以
 let hostnames = [''];
 
 let sha224Password ;

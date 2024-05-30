@@ -4,7 +4,7 @@ EdgTunnel的Trojan版本，支持从GitHub仓库拉取部署（构建时须添�
 
 默认域名为 www.gov.se ，可以替换成任意套了Cloudflare CDN的域名（如www.visa.com speed.cloudflare.com leslieblog.top），也可以搭配IP优选将地址改为Cloudflare EndPoint 边缘IP
 
-访问 https://DOMAIN.workers.dev/PASSWORD查看节点信息
+访问 https://DOMAIN.workers.dev/PASSWORD 查看节点信息
 
 ## 注意事项
 

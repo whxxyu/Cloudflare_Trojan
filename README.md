@@ -16,6 +16,10 @@ EdgTunnel的Trojan版本，支持从GitHub仓库拉取部署（构建时须添�
 
 客户端不支持切片功能时，workers域名节点建议使用关TLS的节点或者使用自定义域节点
 
+## 鸣谢
+
+项目大部分代码来自甬哥侃侃侃，项目地址： https://github.com/yonggekkk/Cloudflare_vless_trojan ，在此致谢！
+
 ## 捐赠
 
 加密货币

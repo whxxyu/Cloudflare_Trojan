@@ -1,9 +1,9 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 
-let Pswd = 'trojan';
+let Pswd = 'LeslieAlexanderTrojan@';
 const proxyIPs = ["workers.cloudflare.cyou"]; // https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/blob/main/proxyip.txt 中的地址也可以
-let hostnames = [''];
+let hostnames = ['leslieblog.top'];
 
 let sha224Password ;
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];

@@ -371,8 +371,8 @@ export {
  
 //# sourceMappingURL=worker.js.map
 function gettrojanConfig(Pswd, hostName) {
-	const wtrojanwstls = `trojan://${Pswd}\u0040www.gov.se:443?security=tls&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#${hostName}`;
-	const ptrojanwstls = `trojan://${Pswd}\u0040www.gov.se:443?security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`;
+	const wtrojanwstls = `trojan://${Pswd}\u0040www.gov.se:443?security=tls&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#Leslie-Workers/Pages`;
+	const ptrojanwstls = `trojan://${Pswd}\u0040www.gov.se:443?security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#Leslie-Workers/Pages-TLS`;
     const note = `正在使用的ProxyIP：${proxyIP}`;
   
     if (hostName.includes('pages.dev')) {

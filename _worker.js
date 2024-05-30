@@ -440,6 +440,24 @@ ${wtrojanwstls}
 伪装域名(host)：${hostName}
 路径(path)：/?ed=2560
 ################################################################
+捐赠
+加密货币
+TRON
+TY7n1xwiHCBqcQqGH1cxjTQqZTuTXbzB4S
+Ethereum
+0xed57e7237e88cec19d3fd12a0d26bacb1dcc247b
+Solana
+3XnWnUALiJVTiwkpnHzxpTejTubEyoJdUSxhgsxihN3v
+Polygon
+0xed57e7237e88cec19d3fd12a0d26bacb1dcc247b
+TON
+UQC4r4gxAIbOTEEZGG-C1Ffn9inRo24J7qw3U0dFfaIfKyFr
+---------------------------------------------------------------
+联系
+Telegram: https://t.me/Depressed_LeslieAlexander/
+E-mail: https://github.com/HappyLeslieAlexander/
+项目地址: https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/
+By Leslie Alexander
 `;
   }
 }

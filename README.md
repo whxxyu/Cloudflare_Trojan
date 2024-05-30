@@ -39,3 +39,15 @@ Polygon
 TON
 
 UQC4r4gxAIbOTEEZGG-C1Ffn9inRo24J7qw3U0dFfaIfKyFr
+
+## 联系
+Telegram: https://t.me/Depressed_LeslieAlexander/
+
+E-mail: https://github.com/HappyLeslieAlexander/
+
+项目地址: https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/
+
+By Leslie Alexander
+
+### 感谢你右上角的star🌟
+[![Stargazers over time](https://starchart.cc/HappyLeslieAlexander/Cloudflare_Trojan.svg)](https://starchart.cc/HappyLeslieAlexander/Cloudflare_Trojan)

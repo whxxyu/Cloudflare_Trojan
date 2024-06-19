@@ -2,7 +2,7 @@
 import { connect } from "cloudflare:sockets";
 
 let Pswd = 'LeslieAlexanderTrojan';
-const proxyIPs = ["workers.cloudflare.cyou"]; // https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/blob/main/proxyip.txt 中的地址也可以
+const proxyIPs = ["cdn-all.xn--b6gac.eu.org"]; // https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/blob/main/proxyip.txt 中的地址也可以
 let hostnames = ['leslieblog.top'];
 
 let sha224Password ;

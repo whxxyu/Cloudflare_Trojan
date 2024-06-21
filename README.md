@@ -2,7 +2,7 @@
 
 EdgeTunnel的Trojan版本，支持从GitHub仓库拉取部署（构建时须添加构建命令：npm install buffer）
 
-默认域名为 www.gov.se ，可以替换成任意套了Cloudflare CDN的域名（如www.visa.com speed.cloudflare.com leslieblog.top），也可以搭配IP优选将地址改为Cloudflare EndPoint 边缘IP
+默认域名为 www.visa.com.hk ，可以替换成任意套了Cloudflare CDN的域名（如www.gov.se speed.cloudflare.com leslieblog.top），也可以搭配IP优选将地址改为Cloudflare EndPoint 边缘IP
 
 访问 https://DOMAIN.workers.dev/PASSWORD 查看节点信息
 

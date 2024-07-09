@@ -1,7 +1,7 @@
 // src/worker.js
 import { connect } from "cloudflare:sockets";
 
-let Pswd = 'LeslieAlexanderTrojan';
+let Pswd = 'LeslieAlexanderTrojan88c8292f-d679-41a6-913e-335546702bdf';
 const proxyIPs = ["cdn-all.xn--b6gac.eu.org"]; // https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/blob/main/proxyip.txt 中的地址也可以
 let hostnames = ['leslieblog.top'];
 

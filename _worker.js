@@ -3,7 +3,7 @@ import { connect } from "cloudflare:sockets";
 
 let Pswd = 'LeslieAlexanderTrojan88c8292f-d679-41a6-913e-335546702bdf';
 const proxyIPs = ["cdn-all.xn--b6gac.eu.org"]; // https://github.com/HappyLeslieAlexander/Cloudflare_Trojan/blob/main/proxyip.txt 中的地址也可以
-let hostnames = ['leslieblog.top'];
+let hostnames = [''];
 
 let sha224Password ;
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
@@ -16,8 +16,8 @@ const worker_default = {
      */
     async fetch(request, env, ctx) {
         try {
-            proxyIP = env.proxyip || proxyIP;
-            Pswd = env.pswd || Pswd
+            proxyIP = env.PROXYIP || proxyIP;
+            Pswd = env.PASSWORD || Pswd
             sha224Password = sha256.sha224(Pswd);
             const upgradeHeader = request.headers.get("Upgrade");
             if (!upgradeHeader || upgradeHeader !== 'websocket') {
@@ -371,8 +371,8 @@ export {
  
 //# sourceMappingURL=worker.js.map
 function gettrojanConfig(Pswd, hostName) {
-	const wtrojanwstls = `trojan://${Pswd}\u0040www.visa.com.hk:443?security=tls&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#Leslie-Workers/Pages`;
-	const ptrojanwstls = `trojan://${Pswd}\u0040www.visa.com.hk:443?security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#Leslie-Workers/Pages-TLS`;
+	const wtrojanwstls = `trojan://${Pswd}\u0040${hostName}:443?security=tls&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#Leslie-Workers/Pages`;
+	const ptrojanwstls = `trojan://${Pswd}\u0040${hostName}:443?security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#Leslie-Workers/Pages-TLS`;
     const note = `正在使用的ProxyIP：${proxyIP}`;
   
     if (hostName.includes('pages.dev')) {
@@ -399,17 +399,6 @@ ${ptrojanwstls}
 传输安全(TLS)：开启
 跳过证书验证(allowlnsecure)：false
 ################################################################
-捐赠
-加密货币
-TRON
-TY7n1xwiHCBqcQqGH1cxjTQqZTuTXbzB4S
-Ethereum
-0xed57e7237e88cec19d3fd12a0d26bacb1dcc247b
-Polygon
-0xed57e7237e88cec19d3fd12a0d26bacb1dcc247b
-TON
-UQC4r4gxAIbOTEEZGG-C1Ffn9inRo24J7qw3U0dFfaIfKyFr
----------------------------------------------------------------
 联系
 Telegram: https://t.me/Depressed_LeslieAlexander/
 E-mail: https://github.com/HappyLeslieAlexander/
@@ -438,17 +427,6 @@ ${wtrojanwstls}
 伪装域名(host)：${hostName}
 路径(path)：/?ed=2560
 ################################################################
-捐赠
-加密货币
-TRON
-TY7n1xwiHCBqcQqGH1cxjTQqZTuTXbzB4S
-Ethereum
-0xed57e7237e88cec19d3fd12a0d26bacb1dcc247b
-Polygon
-0xed57e7237e88cec19d3fd12a0d26bacb1dcc247b
-TON
-UQC4r4gxAIbOTEEZGG-C1Ffn9inRo24J7qw3U0dFfaIfKyFr
----------------------------------------------------------------
 联系
 Telegram: https://t.me/Depressed_LeslieAlexander/
 E-mail: https://github.com/HappyLeslieAlexander/
